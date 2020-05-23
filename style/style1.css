@@ -1,0 +1,45 @@
+<style type=" text/css">
+font-face{
+	font-family: "my stuff";
+}
+h1{font-family: 'Lobster';}
+h2 {font-family: 'Fredoka One', cursive;}
+h1{
+	color: black;
+	background-color:hsla(50,100%,70%,0.4);
+}
+
+h2{
+	color: lightblue;
+	background-color:hsla(50,100%,70%,0.4);
+
+}
+table{
+
+	color: black;
+	background-color:hsla(150,100%,70%,0.4);
+}
+
+h3{
+	color:blue;
+	background-color:hsla(120,100%,70%,.6);
+}
+p1{
+	color: white;
+}
+p{
+	color: red;
+	background-color:hsla(50,100%,70%,0.7);
+	font-size:25px;
+}
+caption{
+color: black;
+	background-color:hsla(150,100%,70%,0.4);
+	}
+ul{
+	color: grey;
+	
+}
+body  {
+background-color: lightblue;
+ }

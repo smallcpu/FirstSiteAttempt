@@ -1,0 +1,50 @@
+<style type=" text/css">
+font-face{
+	font-family: "my stuff";
+}
+h1,
+h2{font-family: 'Bangers', cursive;}
+
+h1{
+	color: black;
+	background-color:hsla(300,100%,70%,0.4);
+}
+
+h2{
+
+	color: Blue;
+
+}
+
+h3{
+	color:blue;
+	background-color:hsla(300,100%,70%,.4);
+}
+p1{
+	color: white;
+}
+p{
+	color: black;
+
+}
+
+ul{
+	color: grey;
+	
+}
+
+fieldset { border:1px solid green }
+
+legend {
+  padding: 0.2em 0.5em;
+  border:1px solid green;
+  color:green;
+  font-size:90%;
+  text-align:right;
+  }
+textarea{
+	background: url(money.png) center center no-repeat;
+
+body  {
+background-color: lightblue;
+ }

@@ -1,0 +1,75 @@
+<!-- The Home Page -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ITMD-360 Internet Technologies and Web Design</title>
+<link rel="stylesheet" type="text/css" href="style/style2.css">
+<link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+<style>
+ul#tabs li {
+display:inline;
+}
+
+ 
+
+</style>
+</head>
+
+
+<body background="media/luka.png">
+<a name="Back to Top"></a>
+<h1 align="center"> Form</h1>
+<h2 align="center">
+	<ul id="tabs">
+		<li><a href="./index.html">Home</a></li>
+		<li><a href="./vocaMusic.html">Songs</a></li>
+		<li><a href="./form.html">Form</a></li>
+	</ul>
+</h2>
+
+<h2> Let Me See Your Information Muah Muah <3 </h2>
+
+	<fieldset>
+		<legend><h3> My info </h3> </legend>
+		
+		 <label> First Name: <input type="text" name="first_name_field" id="first_name_field"</label>
+		 <br><label> Last Name: <input type="text" name="last_name_field" </label></br>
+
+		 <p> Gender </p> 
+		
+			<label>male<input type = "radio" name="gender_field" value="male"</label>
+			<label>female<input type = "radio" name="gender_field" value="female"</label>
+		<br> <p>What is your Age </p>
+			<select name = "age_field">
+			<option>under 18</option>
+			<option>18 - 24</option>
+			<option>25 - 34</option>
+			<option>35 - 44</option>
+			<option>44 - 54</option>
+			<option>54 - 64</option>
+			<option>over 64</option>
+			</select>
+		
+		
+	</fieldset>
+	
+	
+	<fieldset>
+		<legend><h3>Choose Your Favorite Vocaloid!!!</h3></legend>
+		<li><label>Miku<input type = "checkbox" name="available_field[]" value="monday"</label><img src="media/miku.png" align="center" style="width:75px;height:75px;"></li>
+		<li><label>Kaito<input type = "checkbox" name="available_field[]" value="tuesday"</label><img src="media/kaito.png" align="center" style="width:75px;height:75px;"></li>
+		<li><label>Len<input type = "checkbox" name="available_field[]" value="wednesday"</label><img src="media/Len.png" align="center" style="width:75px;height:75px;"></li>
+		<li><label>Luka<input type = "checkbox" name="available_field[]" value="thursday"</label><img src="media/Luka2.png" align="center" style="width:75px;height:75px;"></li>
+		<li><label>Meiko<input type = "checkbox" name="available_field[]" value="friday"</label><img src="media/meiko.png" align="center" style="width:75px;height:75px;"></li>
+		<li><label>Rin<input type = "checkbox" name="available_field[]" value="saturday"</label><img src="media/rin2.png" align="center" style="width:75px;height:75px;"></li>
+		
+		
+		<p> What Vocaloid do you Know:<br>
+		<textarea name="comments_field" rows="5" cols = "40"></textarea>
+		
+	</fieldset>
+	
+	<p>  <input type = "submit"> 
+	<input type = "hidden" name="hidden_field" value="jsocorro">
+</body>

@@ -1,0 +1,42 @@
+<style type=" text/css">
+font-face{
+	font-family: "my stuff";
+}
+h1,
+h2{font-family: 'Gloria Hallelujah', cursive;}
+
+h1{
+	color: black;
+	background-color:hsla(200,100%,70%,0.4);
+}
+html,
+body {
+  height: 10%;
+}
+h2,
+p{
+
+	color: lightblue;
+	background-color:hsla(200,100%,70%,0.4);
+}
+
+h3{
+	color:blue;
+	background-color:hsla(120,100%,70%,.6);
+}
+p1{
+	color: white;
+}
+p{
+	color: yellow;
+
+	font-size:20px;
+}
+
+ul{
+	color: grey;
+	
+}
+body  {
+background-color: lightblue;
+ }

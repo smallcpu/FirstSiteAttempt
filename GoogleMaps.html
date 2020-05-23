@@ -1,0 +1,69 @@
+<!-- The Home Page -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ITMD-360 Internet Technologies and Web Design</title>
+<link rel="stylesheet" type="text/css" href="style3.css">
+<link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+<style type="text/css">
+      html, body, #map-canvas { height: 100%; margin: 0; padding: 0;}
+	  ul#tabs li {
+	display:inline;}
+    </style>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js" align="center">
+    </script>
+	<style>
+	#map-canvas {
+	width: 300px;
+	height: 250px;
+	border: 1px solid blue;
+				}
+	</style>
+	
+    <script type="text/javascript">
+      function initialize() {
+        var mapOptions = {
+          zoom: 15,
+          center: new google.maps.LatLng(43.064841, 141.349903)
+        };
+
+        var map = new google.maps.Map(document.getElementById('map-canvas'),
+            mapOptions);
+      }
+
+      window.onload = initialize;
+	  google.maps.event.trigger(map, "resize");
+    </script>
+
+
+
+
+<body background="km.png">
+<div id="map-canvas"></div>
+<a name="Back to Top"></a>
+<h1 align="center"> GoogleMaps</h1>
+<h2 align="center">
+	<ul id="tabs">
+		<li><a href="C:\Users\Jorell\Desktop\Itm Class\Final Project\Final Lab.html">Home</a></li>
+		<li><a href="C:\Users\Jorell\Desktop\Itm Class\Final Project\JQuary.html">Vocaloid</a></li>
+		<li><a href="C:\Users\Jorell\Desktop\Itm Class\Final Project\Form.html">Form</a></li>
+		<li><a href="C:\Users\Jorell\Desktop\Itm Class\Final Project\GoogleMaps.html">Google Maps</a></li>
+	</ul>
+
+<h3 align="center"> Crypton Future Media</h3>
+<div align="center">
+		<p> Here is the map and location of where I want to go work after I graduate college. I want 
+		to go work in Japan in a company called Crypton Future Media, this is where the characters you see 
+		as backgrounds in my html project are made. I am fan of their music I would love to go and work
+		there for the rest of my life. It is currently my dream job.
+		</p>
+	</div>
+
+</h2>
+
+</body>
+	
+</head>
+
+
